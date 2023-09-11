@@ -118,7 +118,7 @@ namespace CadastroFaculdade.ConsoleApp
                         Console.WriteLine($"Número de Alunos: {faculdadeSelecionada.Alunos}");
                         Console.WriteLine($"É pública: {faculdadeSelecionada.Publica}");
                         Console.WriteLine($"Avaliação: {faculdadeSelecionada.Avaliacao}");
-                        Console.WriteLine($"Tempo de fundação: {faculdadeSelecionada.CalcularIdade(), } anos");
+                        Console.WriteLine($"Tempo de fundação: {faculdadeSelecionada.CalcularIdade()} anos");
                     }
                     else
                     {
